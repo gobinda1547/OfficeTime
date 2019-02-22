@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Office Time</string>
+    <string name="selectedDateFinalButtonText">GO</string>
 </resources>
