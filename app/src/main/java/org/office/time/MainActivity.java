@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d(DEBUG, "onCreateCalled");
+
 
         dialogView = View.inflate(this, R.layout.date_time_picker, null);
 
