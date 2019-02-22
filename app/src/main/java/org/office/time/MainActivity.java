@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showDateTimePicker(View v){
+        Log.d(DEBUG, "showing date time picker");
         alertDialog.setView(dialogView);
         alertDialog.show();
     }
